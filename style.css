@@ -1,0 +1,213 @@
+/* body{
+    /* font-family: "Martel Sans",sans-serif; */
+/* }  */
+.nav-li {
+    color: rgba(0, 0, 0, .5);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+    font-family: "Martel Sans", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    border-bottom: 4px solid #3face4;
+}
+
+.container-1 {
+    background-image: url("images/bg-img-home.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* max-width: 1325px; */
+    max-width: 100%;
+    background-position: 50%;
+    box-shadow: #a5bbd0;
+    padding: 150px 0;
+}
+
+.home-heading {
+    font-size: 50px;
+    text-shadow: 2px 4px rgba(50, 50, 70, .8);
+    color: #146f9c;
+    font-weight: 600;
+    position: absolute;
+    left: 25%;
+    margin-right: 300px !important;
+    text-transform: uppercase;
+}
+.nav-link{
+    font-size: 14px;
+    
+}
+.nav-link:hover{
+    color: #3face4;
+}
+.home-heading-sub {
+    color: #000;
+    position: absolute;
+    left: 20%;
+    font-size: 1.15em;
+    /* font-size: 25px; */
+    text-transform: uppercase;
+    font-weight: 600;
+    top: 63%;
+    margin-right: 400px;
+}
+
+.make-appointment-btn {
+    color: #fff;
+    background-color: #146f9c !important;
+
+    border-radius: 33px;
+    transition: 1s;
+    position: absolute;
+    border: 1px solid #146f9c;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    top: 74%;
+    left: 43%;
+
+}
+
+.make-appointment-btn:hover {
+    color: black !important;
+
+}
+
+.about-img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-info {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.about-info-sub {
+    color: cadetblue;
+    padding-right: 100px;
+}
+
+.about-btn {
+    color: #fff;
+    background-color: #146f9c !important;
+
+    border-radius: 33px;
+    transition: 1s;
+    position: absolute;
+    border: 1px solid #146f9c;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    top: 70%;
+    /* left: 43%; */
+    cursor: pointer;
+
+}
+
+.about-btn:hover {
+    color: black !important;
+
+}
+
+.services-timer {
+    /* background-color: linear-gradient(90deg,#47b4c2,#3378e7) !important;   */
+    background-color: lightblue;
+    background: linear-gradient(90deg, #47b4c2, #3378e7);
+    width: 100%;
+    height: 60vh;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #000;
+}
+.footer-text{
+    color: #6c757d!important;
+    font-size: 1rem;
+    padding: 22px 0;
+    margin-left: 120px;
+}
+.footer-sm-text{
+    color: #6c757d!important;
+    
+    margin-left: 0px;
+    /* position: absolute; */
+    top: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6c757d!important;
+    margin-top: -10px;
+
+}
+.card {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .1) !important;
+    background: #fff;
+    border-radius: 5px;
+    height: 90%;
+    /* width: 80% !important;
+    max-width: 100% !important; */
+    padding: 30px;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 15px 0;
+}
+
+.card-icon {
+    color: #146f9c;
+    font-size: 50px;
+    /* margin-left: 90px; */
+}
+
+.card-heading-sub {
+    color: #444;
+    font-weight: 500 !important;
+}
+
+.card-heading {
+    color: #000;
+}
+
+.form-select {
+    height: 11%;
+    /* position: absolute; */
+    /* top: 380%; */
+    padding-top: 13px !important;
+    margin-top: 30px !important;
+}
+
+.contact-btn {
+    border: 1px solid #3face4;
+    color: #3face4;
+}
+
+.contact-btn:hover {
+    background-color: #3378e7;
+    color: #fff;
+}
+
+.contact-sm-text {
+    color: #444;
+    font-weight: 100 !important;
+    font-size: 23px;
+}
+
+.contact-icon {
+cursor: pointer;
+}
